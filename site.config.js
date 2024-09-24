@@ -27,7 +27,7 @@ const CONFIG = {
   link: "https://blog.noamaidev.com",
   since: 2024, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
-  ogImageGenerateURL: "https://blog.noamaidev.com/og1.png", // The link to generate OG image, don't end with a slash
+  ogImageGenerateURL: "/og1.png", // The link to generate OG image, don't end with a slash
 
   // notion configuration (required)
   notionConfig: {
