@@ -15,6 +15,10 @@ const CONFIG = {
       name: `noamsuissa-blog`,
       href: "https://github.com/noamsuissa/noamsuissa-blog",
     },
+    {
+      name: `portfolio`,
+      href: "https://noamaidev.com",
+    },
   ],
   // blog setting (required)
   blog: {
