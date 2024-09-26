@@ -58,11 +58,25 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: true,
+    enable: false, // Changed to false since we're switching to Giscus
     config: {
       repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
       "issue-term": "og:title",
       label: "💬 Utterances",
+    },
+  },
+  giscus: {
+    enable: true,
+    config: {
+      repo: "noamsuissa/noamsuissa-blog",
+      repoId: "R_kgDOM2fyOA",
+      category: "Announcements",
+      categoryId: "DIC_kwDOM2fyOM4Ci00V",
+      mapping: "og:title",
+      reactionsEnabled: "1",
+      emitMetadata: "0",
+      inputPosition: "top",
+      lang: "en",
     },
   },
   cusdis: {
