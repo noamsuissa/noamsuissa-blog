@@ -39,7 +39,6 @@ import 'prismjs/components/prism-swift.js'
 import 'prismjs/components/prism-wasm.js'
 import 'prismjs/components/prism-yaml.js'
 import "prismjs/components/prism-go.js"
-import { Analytics } from "@vercel/analytics/react"
 
 type Props = {
   children: ReactNode
@@ -57,7 +56,6 @@ const RootLayout = ({ children }: Props) => {
       <Scripts />
       {/* // TODO: replace react query */}
       {/* {metaConfig.type !== "Paper" && <Header />} */}
-      <Analytics />
       <Header fullWidth={false} />
       <StyledMain>{children}</StyledMain>
     </ThemeProvider>
